@@ -1,13 +1,14 @@
 .header {
+	border-bottom: 1px solid var(--alto);
 	width: 100%;
-	background-color: var(--bg-color);
+	background-color: var(--light-color);
 
 	&__container {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		margin: 0 auto;
-		padding: 10px 15px;
+		padding: 18px 15px;
 		min-height: 70px;
 		max-width: $container-width + px;
 	}
@@ -26,7 +27,7 @@
 }
 
 .logo__img {
-	width: 200px;
+	width: 80px;
 	height: auto;
 	fill: var(--light-color);
 }
@@ -37,7 +38,7 @@
 	}
 
 	&__item {
-		margin-right: 20px;
+		margin-right: 72px;
 
 		&:last-child {
 			margin: 0;
@@ -45,9 +46,11 @@
 	}
 
 	&__link {
-		@include adaptive-font(18, 16);
 		position: relative;
-		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		color: var(--mine-shaft);
 
 		&::after {
 			content: '';
