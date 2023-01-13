@@ -4,6 +4,7 @@
 }
 
 .link {
+	display: inline-block;
 	border: 2px solid transparent;
 	border-radius: 4px;
 	padding: 13px 50px;
@@ -11,11 +12,11 @@
 	line-height: 25px;
 	text-align: center;
 	color: var(--light-color);
-	background-color: var(--green-haze);
+	background-color: var(--accent-color);
 	transition: all 0.2s;
 
 	&:hover {
-		border: 2px solid var(--green-haze);
+		border: 2px solid var(--accent-color);
 		color: var(--dark-color);
 		background-color: transparent;
 	}
